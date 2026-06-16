@@ -1,0 +1,13 @@
+{
+  "name": "linkedin-maxxing-marketplace",
+  "owner": {
+    "name": "Suhail"
+  },
+  "plugins": [
+    {
+      "name": "linkedin-maxxing",
+      "source": "./plugins/linkedin-maxxing",
+      "description": "17 skills for substance-first LinkedIn growth: profile audit/rewrite, voice training, idea mining, drafting posts/comments/carousels/videos/longform, repurposing, performance analysis, and post postmortems. Anti-slop by design, with a built-in humanizer pass."
+    }
+  ]
+}
