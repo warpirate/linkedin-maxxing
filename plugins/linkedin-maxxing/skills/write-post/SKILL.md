@@ -1,19 +1,11 @@
 ---
 name: write-post
 description: |
-  Write a LinkedIn text post, in the user's voice, optimized for the 2026
-  LinkedIn algorithm (dwell time, comments, the 210-character "see more"
-  fold, no link penalty). Use whenever the user wants to draft a single
-  LinkedIn text post and has either a specific angle to write about or a
-  seed from find-ideas. Trigger phrases include "write a LinkedIn post,"
-  "draft a post about X," "turn this into a post," "post this on LinkedIn,"
-  or whenever the user passes a seed in the format produced by find-ideas.
-  Make sure to use this skill when the user has a specific angle ready; if
-  they do not (vague topic, no idea yet), use find-ideas first. Reads
-  voice-profile.md if present to match the user's actual writing voice.
-  After drafting, applies humanizer rules from the humanizer skill to
-  strip AI tells. Output is a finished post the user can copy and paste
-  into LinkedIn.
+  Use when user wants to draft a single LinkedIn text post and has a
+  specific angle, or passes a seed from find-ideas. Trigger phrases
+  include "write a LinkedIn post," "draft a post about X," "turn this
+  into a post," "post this on LinkedIn." If no specific angle, route to
+  find-ideas first instead.
 license: MIT
 ---
 

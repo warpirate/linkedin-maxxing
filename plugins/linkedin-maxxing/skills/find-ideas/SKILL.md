@@ -1,21 +1,14 @@
 ---
 name: find-ideas
 description: |
-  Interview the user to surface specific, postable LinkedIn ideas from their
-  actual work and recent experience, instead of generating generic templates.
-  Use whenever someone wants to post on LinkedIn but has no concrete idea
-  ready, or has a vague topic that needs a sharper angle. Trigger phrases
-  include "help me come up with a LinkedIn post," "what should I write
-  about," "I want to post something but I don't know what," "give me ideas
-  for LinkedIn," and "I have an idea but I don't know the angle." Also
-  trigger when the user uploads a work artifact (a PR description, a meeting
-  note, an internal doc) and asks what to post about it. Make sure to use
-  this skill BEFORE any LinkedIn writing skill if the user has not already
-  given a concrete, specific angle to post about. Every other writing skill
-  in this repo depends on this one to avoid producing generic slop. Output
-  is 2-5 idea seeds, each with a specific angle, the concrete detail that
-  anchors it, and a suggested next skill (write-post, build-carousel,
-  write-longform, or write-video-script).
+  Use when user wants to post on LinkedIn but has no concrete idea, has
+  a vague topic that needs a sharper angle, or uploads a work artifact
+  (PR description, meeting note, internal doc) and asks what to post
+  about it. Trigger phrases include "help me come up with a LinkedIn
+  post," "what should I write about," "I want to post something but I
+  don't know what," "give me ideas for LinkedIn," "I have an idea but I
+  don't know the angle." Run BEFORE any writing skill if user has not
+  given a concrete, specific angle.
 license: MIT
 ---
 

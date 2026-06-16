@@ -1,18 +1,13 @@
 ---
 name: repurpose-content
 description: |
-  Take one piece of existing content (a podcast or video transcript, a
-  blog post, an internal doc, a talk, an older LinkedIn post that
-  performed, a long email) and produce multiple LinkedIn-shaped pieces
-  from different angles, each with a distinct hook. Repurposing maximizes
-  the return on content the user has already produced. Trigger phrases
-  include "repurpose this," "turn this into LinkedIn posts," "give me 5
-  posts from this article," "I have a transcript I want to use," or when
-  the user uploads a long-form file and asks how to use it on LinkedIn.
-  Output is a list of distinct posts/carousels/scripts (typically 3-7,
-  each pointed at a different angle from the source) with the source
-  passage that anchors each, ready to be sent to write-post,
-  build-carousel, or write-video-script.
+  Use when user has one piece of existing content (podcast or video
+  transcript, blog post, internal doc, talk, older LinkedIn post that
+  performed, long email) and wants multiple LinkedIn-shaped pieces from
+  different angles. Trigger phrases include "repurpose this," "turn this
+  into LinkedIn posts," "give me 5 posts from this article," "I have a
+  transcript I want to use," or when user uploads a long-form file and
+  asks how to use it on LinkedIn.
 license: MIT
 ---
 

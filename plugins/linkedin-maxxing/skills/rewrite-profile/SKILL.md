@@ -1,20 +1,13 @@
 ---
 name: rewrite-profile
 description: |
-  Rewrite the user's full LinkedIn profile as one coherent positioning
-  unit: headline (220 characters, search-indexed), About section ("see
-  more" hook plus body), Featured selection, and Experience bullets. The
-  whole page is one positioning act, and changing one section without the
-  others produces inconsistency. Use when the user wants to improve their
-  profile, is preparing for a job search, has changed roles, is
-  positioning for a new audience (founder, consultant, recruiter), or has
-  not touched their profile in over a year. Trigger phrases include
-  "rewrite my LinkedIn profile," "optimize my profile," "fix my
-  headline," "my About section sucks," "I want my profile to position me
-  as X." Output is a full set of new copy for every section, plus
-  before/after notes for each change. Reads the user's current profile
-  (paste-in or LinkedIn data export) and audit-profile output if it
-  exists.
+  Use when user wants to improve their LinkedIn profile, is preparing
+  for a job search, has changed roles, is positioning for a new audience
+  (founder, consultant, recruiter), or has not touched their profile in
+  over a year. Trigger phrases include "rewrite my LinkedIn profile,"
+  "optimize my profile," "fix my headline," "my About section sucks," "I
+  want my profile to position me as X." Run audit-profile first if not
+  already done.
 license: MIT
 ---
 

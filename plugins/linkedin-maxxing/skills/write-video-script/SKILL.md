@@ -1,19 +1,13 @@
 ---
 name: write-video-script
 description: |
-  Write a short-form video script for LinkedIn (30-90 seconds, the format
-  that now drives ~5x more interactions than text and is projected to be
-  65% of LinkedIn content by late 2026). Use when the user wants to post
-  on camera, when an idea has visual or demonstrative power that text
-  cannot capture, when the user has a strong speaking voice that should be
-  on camera rather than on the page, or when a seed from find-ideas is
-  marked "Best fit for: write-video-script." Trigger phrases include
-  "write a video script," "I want to make a video," "this would work
-  better on camera," "script me a 60-second video." Output is a script
-  with timing markers (rough seconds per beat), a hook designed for the
-  first 3 seconds, on-screen text suggestions where they earn their place,
-  and a note on whether the video should be talking-head or
-  demonstration.
+  Use when user wants to post a short-form LinkedIn video (30-90
+  seconds), an idea has visual or demonstrative power text cannot
+  capture, user has a strong speaking voice that should be on camera, or
+  a find-ideas seed is marked "Best fit for: write-video-script."
+  Trigger phrases include "write a video script," "I want to make a
+  video," "this would work better on camera," "script me a 60-second
+  video."
 license: MIT
 ---
 

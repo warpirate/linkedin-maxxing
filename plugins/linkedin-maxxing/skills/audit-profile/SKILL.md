@@ -1,18 +1,13 @@
 ---
 name: audit-profile
 description: |
-  Diagnose the user's current LinkedIn profile for positioning, search
-  visibility, and conversion issues, and produce a prioritized list of
-  what to fix. This is the diagnostic counterpart to rewrite-profile: run
-  this first to know what is broken, then run rewrite-profile to fix the
-  things worth fixing. Use when the user has not touched their profile in
-  a while, is wondering why they get few profile views or recruiter
-  reach-outs, wants a second opinion on their current profile, or
-  suspects something is off but cannot name it. Trigger phrases include
-  "audit my LinkedIn profile," "check my profile," "what's wrong with my
-  profile," "why don't I get recruiter messages," "review my About
-  section." Output is a section-by-section diagnostic with severity rated
-  for each issue and a prioritized action list.
+  Use when user wants to diagnose their current LinkedIn profile before
+  rewriting it: they have not touched it in a while, get few profile
+  views or recruiter reach-outs, want a second opinion, or suspect
+  something is off but cannot name it. Trigger phrases include "audit my
+  LinkedIn profile," "check my profile," "what's wrong with my profile,"
+  "why don't I get recruiter messages," "review my About section." Run
+  before rewrite-profile.
 license: MIT
 ---
 

@@ -1,19 +1,12 @@
 ---
 name: train-voice
 description: |
-  Learn the user's writing voice from samples of their past posts, comments,
-  or other writing, and produce a voice-profile.md file that downstream
-  writing skills (write-post, write-comment, write-longform,
-  write-recommendation) read automatically to write in the user's actual
-  voice rather than generic LinkedIn-AI voice. Use this skill BEFORE other
-  writing skills if the user wants posts that sound like them. Trigger
-  phrases include "learn my voice," "train on my writing," "match my
-  style," "make it sound like me," "here are my past posts," or when the
-  user uploads a file of their past LinkedIn activity (such as the
-  Shares.csv from the LinkedIn data export). Also trigger proactively when
-  a user is about to use a writing skill for the first time and has not yet
-  trained voice. Output is a voice-profile.md file saved to the workspace
-  so all writing skills can read it.
+  Use BEFORE any writing skill when user wants LinkedIn posts that sound
+  like them rather than generic AI voice. Trigger phrases include "learn
+  my voice," "train on my writing," "match my style," "make it sound
+  like me," "here are my past posts," or when user uploads Shares.csv
+  from LinkedIn data export. Also trigger proactively before first
+  writing-skill use when voice-profile.md does not exist.
 license: MIT
 ---
 

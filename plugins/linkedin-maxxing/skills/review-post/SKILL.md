@@ -1,19 +1,13 @@
 ---
 name: review-post
 description: |
-  Do a postmortem on one specific LinkedIn post the user already
-  published: read the post text and its performance data, diagnose what
-  worked, what didn't, and what to do differently next time on a similar
-  angle. This is the per-post counterpart to analyze-performance (which
-  works across many posts). Use when one of the user's posts notably
-  outperformed or underperformed their median, when they want to
-  understand a single post in depth before writing a follow-up, or when
-  they want to learn from a specific recent post. Trigger phrases
-  include "review this post," "why did this post flop," "why did this
-  post do so well," "what should I do differently next time," "do a
-  postmortem on this post." Output is a focused diagnosis (hook, body,
-  close, format, timing, audience match) with 1-3 concrete lessons for
-  the next attempt at a similar angle.
+  Use when one of user's already-published LinkedIn posts notably
+  outperformed or underperformed their median, they want to understand a
+  single post in depth before writing a follow-up, or learn from a
+  specific recent post. Trigger phrases include "review this post," "why
+  did this post flop," "why did this post do so well," "what should I do
+  differently next time," "do a postmortem on this post." Per-post
+  counterpart to analyze-performance.
 license: MIT
 ---
 

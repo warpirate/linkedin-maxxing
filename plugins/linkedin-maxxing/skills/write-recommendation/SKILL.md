@@ -1,17 +1,12 @@
 ---
 name: write-recommendation
 description: |
-  Write a LinkedIn recommendation: the formal long-form testimonial the
-  user writes about a former colleague, manager, direct report, vendor, or
-  client that appears on the recommended person's profile. Use when the
-  user wants to write a recommendation for someone, when they have agreed
-  to recommend someone and need help structuring it, or when they want to
-  return a recommendation after receiving one. Trigger phrases include
-  "write a LinkedIn recommendation," "I want to recommend [name],"
-  "[person] asked me for a recommendation," "I owe [person] a
-  recommendation." Output is a 150-300 word recommendation with specific
-  examples, written in the user's voice, that reads as a real
-  recommendation rather than a template.
+  Use when user wants to write a LinkedIn recommendation for a former
+  colleague, manager, direct report, vendor, or client; has agreed to
+  recommend someone and needs help structuring it; or wants to return a
+  recommendation after receiving one. Trigger phrases include "write a
+  LinkedIn recommendation," "I want to recommend [name]," "[person]
+  asked me for a recommendation," "I owe [person] a recommendation."
 license: MIT
 ---
 

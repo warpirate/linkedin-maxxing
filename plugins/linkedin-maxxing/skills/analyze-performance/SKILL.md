@@ -1,20 +1,12 @@
 ---
 name: analyze-performance
 description: |
-  Analyze the user's LinkedIn post performance to identify what content
-  is actually landing with their audience and why. Reads the LinkedIn
-  analytics export (impressions, dwell time, comments, shares, engagement
-  rate, reactions broken out by type per post) from the user's Creator
-  dashboard or via the LinkedIn data export. Use when the user has been
-  posting for at least 4 weeks and wants to know what is working, when
-  they want to do a quarterly review of their content, or when they
-  notice engagement dropping and want to understand why. Trigger phrases
-  include "analyze my LinkedIn performance," "which of my posts are
-  working," "what should I post more of," "why is my engagement
-  dropping," or when the user uploads a LinkedIn analytics CSV. Output
-  is a diagnostic that groups posts by pillar (if plan-content has
-  been run), identifies the strongest-performing patterns, names the
-  weakest-performing patterns, and gives 3-5 specific recommendations.
+  Use when user has been posting on LinkedIn at least 4 weeks and wants
+  to know what is landing, run a quarterly content review, or diagnose
+  dropping engagement. Trigger phrases include "analyze my LinkedIn
+  performance," "which of my posts are working," "what should I post
+  more of," "why is my engagement dropping," or when user uploads a
+  LinkedIn analytics CSV.
 license: MIT
 ---
 

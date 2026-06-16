@@ -1,20 +1,13 @@
 ---
 name: write-comment
 description: |
-  Write a high-signal comment on someone else's LinkedIn post, or reply to
-  a comment on the user's own post. Comments are the highest-impact
-  growth move on LinkedIn in 2026 because comments now count roughly 15x
-  more than likes for ranking, and comments with substantive content
-  (specific questions, personal experience, professional insight) are
-  scored higher by LinkedIn's NLP than "Great post!" responses. Use this
-  skill when the user wants to leave a comment on a post they read, when
-  they want to reply to comments on their own posts, when they want a
-  batch of comment templates for engaging with their network, or when
-  they want to use commenting as their primary growth strategy. Trigger
-  phrases include "write a comment on this post," "how should I reply to
-  this," "help me engage with my feed," or when the user pastes a post
-  URL or text and asks what to say. Output is a comment in the user's
-  voice that adds substance, not noise.
+  Use when user wants to leave a substantive comment on someone else's
+  LinkedIn post, reply to comments on their own posts, get a batch of
+  comment templates for engaging with their network, or use commenting
+  as their primary growth strategy. Trigger phrases include "write a
+  comment on this post," "how should I reply to this," "help me engage
+  with my feed," or when user pastes a post URL or text and asks what to
+  say.
 license: MIT
 ---
 

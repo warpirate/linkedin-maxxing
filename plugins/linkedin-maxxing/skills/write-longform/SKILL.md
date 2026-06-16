@@ -1,18 +1,12 @@
 ---
 name: write-longform
 description: |
-  Write long-form LinkedIn content: a LinkedIn article (600-2,000 words,
-  appears in the user's profile and gets dedicated distribution) or a
-  LinkedIn newsletter issue (which gets push notifications and email to
-  subscribers). Use when the user has an idea that genuinely needs 600+
-  words to do justice, when they want to build a newsletter cadence on
-  LinkedIn, or when they want a piece that lives on their profile
-  permanently rather than in the feed. Trigger phrases include "write a
-  LinkedIn article," "write a newsletter," "this needs to be long-form,"
-  "I have a lot to say about this," or when a seed from find-ideas is
-  marked "Best fit for: write-longform." Output is a complete article
-  with title, sub-headers, prose, and a closing CTA appropriate for the
-  format (newsletter vs. article).
+  Use when user has an idea that genuinely needs 600+ words, wants to
+  build a LinkedIn newsletter cadence, or wants a piece that lives
+  permanently on their profile rather than in the feed. Trigger phrases
+  include "write a LinkedIn article," "write a newsletter," "this needs
+  to be long-form," "I have a lot to say about this," or when a
+  find-ideas seed is marked "Best fit for: write-longform."
 license: MIT
 ---
 

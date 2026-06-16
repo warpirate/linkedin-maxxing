@@ -1,20 +1,14 @@
 ---
 name: build-carousel
 description: |
-  Produce a LinkedIn carousel SPEC (slide-by-slide copy + visual brief +
-  image-gen prompts) that the user assembles into a multi-slide PDF in
-  Canva, Figma, or similar. This skill does NOT export a finished PDF.
-  Carousels are the highest-performing format on LinkedIn in 2026 (often
-  5-10x the engagement of equivalent text posts). Use when the user has
-  an idea with multiple discrete steps, a framework, a comparison, a
-  before/after, a list of items worth a slide each, or anything where
-  swiping is part of the experience. Trigger phrases include "make a
-  carousel," "build a slide deck for LinkedIn," "turn this into a
-  carousel," "I have a framework to share," or when a seed from
-  find-ideas is marked "Best fit for: build-carousel." Output is a slide
-  plan (cover + 6-12 content slides + outro) with copy for each slide,
-  written in the user's voice, plus visual direction notes for each
-  slide and a final image-generation prompt or visual brief.
+  Use when user has an idea with multiple discrete steps, a framework, a
+  comparison, a before/after, a list of items worth a slide each, or
+  anything where swiping is part of the experience. Trigger phrases
+  include "make a carousel," "build a slide deck for LinkedIn," "turn
+  this into a carousel," "I have a framework to share," or when a
+  find-ideas seed is marked "Best fit for: build-carousel." Produces a
+  carousel SPEC the user assembles into a PDF in Canva or Figma; does
+  not export the finished PDF.
 license: MIT
 ---
 

@@ -1,14 +1,8 @@
 ---
 name: plan-content
 description: |
-  Define the user's LinkedIn content strategy: their 3-5 content pillars
-  (recurring topic-and-angle pairs), their target audience (the specific
-  segment they want to reach), and their posting cadence (how often,
-  what mix of formats). Output is a content plan document that
-  downstream skills can reference, and that the user can use to make
-  decisions about what to post and what to skip. Use when the user wants
-  to think strategically about their content rather than post-by-post,
-  when they are starting a LinkedIn presence from scratch, when their
+  Use when user wants to think strategically about LinkedIn content
+  rather than post-by-post: starting a LinkedIn presence from scratch,
   posting feels scattered or unfocused, or before committing to a
   consistent posting routine. Trigger phrases include "help me plan my
   LinkedIn content," "what should I be posting about regularly," "define

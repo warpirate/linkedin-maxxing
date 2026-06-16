@@ -2,12 +2,14 @@
 name: humanizer
 version: 2.8.0
 description: |
-  Remove signs of AI-generated writing from text. Use when editing or reviewing
-  text to make it sound more natural and human-written. Based on Wikipedia's
-  comprehensive "Signs of AI writing" guide. Detects and fixes patterns including:
-  inflated symbolism, promotional language, superficial -ing analyses, vague
-  attributions, em dash overuse, rule of three, AI vocabulary words, passive
-  voice, negative parallelisms, and filler phrases.
+  Use when editing or reviewing text that reads as AI-generated:
+  symptoms include em dashes, "it's not X, it's Y" constructions, AI
+  vocabulary (leverage, delve, tapestry, underscore, pivotal, crucial,
+  vibrant, testament, landscape), rule-of-three padding, inflated
+  symbolism, promotional language, vague attributions, negative
+  parallelisms, filler phrases. Trigger phrases include "humanize this,"
+  "make this sound human," "strip the AI tells," "this reads like
+  ChatGPT." Also invoked as final polish step by writing skills.
 license: MIT
 compatibility: claude-code opencode
 allowed-tools:

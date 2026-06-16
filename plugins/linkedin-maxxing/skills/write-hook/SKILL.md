@@ -1,16 +1,12 @@
 ---
 name: write-hook
 description: |
-  Write the first two lines of a LinkedIn post (the "hook") to earn the
-  "see more" click and maximize dwell time. The hook lives within the
-  210-character LinkedIn fold. Use this skill when the user has a post
-  body but a weak opening, when they want to A/B several hook angles
-  before drafting the full post, or when their existing post is not
-  earning expand clicks. Trigger phrases include "write a hook," "fix my
-  hook," "give me 5 hook variants," "the first line of my post is weak,"
-  or "rewrite the opening." Output is 3-5 hook variants of under 210
-  characters each, with the angle each is taking and a note on which is
-  the strongest and why.
+  Use when user has a LinkedIn post body but a weak opening, wants to
+  A/B several hook angles before drafting the full post, or their
+  existing post is not earning "see more" expand clicks. Trigger phrases
+  include "write a hook," "fix my hook," "give me 5 hook variants," "the
+  first line of my post is weak," "rewrite the opening." Hook must fit
+  the 210-character LinkedIn fold.
 license: MIT
 ---
 

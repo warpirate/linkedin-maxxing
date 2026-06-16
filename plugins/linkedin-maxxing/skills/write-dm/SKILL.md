@@ -1,18 +1,12 @@
 ---
 name: write-dm
 description: |
-  Write a LinkedIn direct message: a connection request note, a cold
-  outreach message, a warm intro reply, a follow-up after no response, a
-  reply to someone who DM'd the user. DMs on LinkedIn have a different
-  register from posts (private, one-to-one, often transactional) and a
-  different success metric (a response, not a "see more" click). Use when
-  the user wants to send a message to one specific person rather than
-  post publicly. Trigger phrases include "write a LinkedIn DM," "write a
+  Use when user wants to send a LinkedIn message to one specific person
+  rather than post publicly: a connection request note, cold outreach,
+  warm intro reply, follow-up after no response, or reply to someone who
+  DM'd them. Trigger phrases include "write a LinkedIn DM," "write a
   connection request," "I need to message [person]," "follow up on the
-  message I sent," "reply to this person." Output is a short, specific
-  message (typically 50-150 words for cold outreach, shorter for
-  connection requests) in the user's voice, with no fake personalization
-  or template-y sales language.
+  message I sent," "reply to this person."
 license: MIT
 ---
 
