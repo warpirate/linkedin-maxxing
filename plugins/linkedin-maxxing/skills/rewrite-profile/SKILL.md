@@ -140,15 +140,45 @@ Pick the three skills that:
 - Are actually backed by evidence in the rest of the profile
 - Are listed exactly as recruiters would search (e.g., "Product Management" not "Product Strategy & Vision")
 
-## Apply humanizer rules
+## Drafting constraints (apply WHILE writing, not after)
 
-Read every section. Cut:
-- Em dashes and en dashes
-- "Passionate about," "driven by," "results-oriented"
-- "Stands as," "serves as," "marks a"
-- AI vocabulary (leverage, delve, pivotal, vibrant, tapestry, landscape as abstract noun)
-- Rule-of-three lists with filler third items
-- Generic positive conclusions ("Looking forward to the next chapter")
+Output must read as written by a human on the first pass. The constraints below are how you write, not a checklist to apply later. Do not narrate this process to the user. Do not show a "before humanizer / after humanizer" sequence. Just produce clean output.
+
+**Hard bans — never appear in output:**
+- Em dashes (—) and en dashes (–). Use period, comma, colon, or parentheses.
+- "It's not just X, it's Y" / "Not only X but Y" constructions.
+- "The real question is," "at its core," "fundamentally," "what really matters."
+- Signposting: "Let's dive in," "here's what you need to know," "let's break this down," "without further ado."
+- Sycophancy: "Great question," "you're absolutely right," "I hope this helps," "let me know if..."
+- Knowledge-cutoff hedges: "based on available information," "as of my last update."
+- AI vocabulary: leverage, delve, tapestry, underscore, pivotal, crucial, vibrant, testament, landscape (abstract), interplay, intricate, fostering, enduring, garner, valuable, enhance, showcase, align with, additionally.
+- Copula avoidance: "serves as," "stands as," "marks a," "represents a," "boasts," "features." Use is/are/has.
+- Emoji decoration on bullets or headings.
+- Title Case In Headings. Use sentence case.
+- Curly quotes ("..."). Use straight quotes (") only.
+- Bold for random emphasis. Bold only for genuine key terms.
+- Rule-of-three padding where the third item is filler.
+- Generic upbeat conclusions ("The future looks bright," "exciting times ahead").
+- Aphorism formulas ("X is the language of Y," "X becomes a trap," "X is not a tool but a mirror").
+- Theatrical openers: "Honestly?" "Look," "Here's the thing," used as standalone pause-and-reveal.
+- Inline-header bullet lists (`- **Speed:** ...`). Write as prose.
+- "-ing" tag-ons that add fake depth: "highlighting," "underscoring," "fostering," "reflecting," "showcasing," "ensuring," "contributing to."
+
+**Required patterns:**
+- Specific, hard-to-fabricate detail. Real numbers, real names, real quotes from the user's input.
+- Vary sentence length. Short. Then longer ones that take their time. Mix.
+- Active voice over passive. Concrete actor over hidden subject.
+- Simple copulas (is/are/has) over fancy substitutes.
+- One opinion or mixed feeling where the format allows (not for neutral reference text).
+- Cut every filler phrase ("in order to" → "to," "due to the fact that" → "because," "at this point in time" → "now," "has the ability to" → "can").
+
+**Final scan before output:**
+1. Scan for `—` and `–`. Any hit means redraft.
+2. Scan for any word in the AI-vocabulary list above. Any hit means rewrite that sentence.
+3. Scan for "it's not X, it's Y" pattern. Any hit means rewrite.
+4. If three short fragments appear in a row mid-paragraph, the rhythm is engineered. Vary.
+
+Full 33-pattern reference: see humanizer/SKILL.md in this plugin.
 
 ## Output format
 

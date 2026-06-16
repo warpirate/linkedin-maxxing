@@ -84,21 +84,45 @@ Ask ONE question, then commit: "I don't have a voice profile yet. Quick: when yo
 
 Get the answer, draft. Suggest at the end: "Want me to run train-voice on some past posts so I match your voice better next time?"
 
-## Apply humanizer before final output
+## Drafting constraints (apply WHILE writing, not after)
 
-Before returning the draft to the user, mentally run the humanizer rules:
+Output must read as written by a human on the first pass. The constraints below are how you write, not a checklist to apply later. Do not narrate this process to the user. Do not show a "before humanizer / after humanizer" sequence. Just produce clean output.
 
-1. Scan for em dashes and en dashes. Remove all. (Hard rule.)
-2. Scan for AI vocabulary: leverage, delve, tapestry, underscore, pivotal, crucial, vibrant, testament, landscape (as abstract noun). Rewrite where present.
-3. Scan for "the real question is," "at its core," "fundamentally." Cut or rewrite.
-4. Scan for "stands as," "serves as," "marks a." Replace with "is" or "has."
-5. Scan for negative parallelisms: "It's not just X, it's Y." Rewrite as a single positive claim.
-6. Scan for rule-of-three padding. If the third item is filler, drop it.
-7. Scan for emoji decoration on bullets or headings. Remove.
-8. Check sentence-length variety. If everything is the same length, vary it.
-9. Check the hook against the 210-character LinkedIn fold. If the hook does not earn the click, redo it.
+**Hard bans — never appear in output:**
+- Em dashes (—) and en dashes (–). Use period, comma, colon, or parentheses.
+- "It's not just X, it's Y" / "Not only X but Y" constructions.
+- "The real question is," "at its core," "fundamentally," "what really matters."
+- Signposting: "Let's dive in," "here's what you need to know," "let's break this down," "without further ado."
+- Sycophancy: "Great question," "you're absolutely right," "I hope this helps," "let me know if..."
+- Knowledge-cutoff hedges: "based on available information," "as of my last update."
+- AI vocabulary: leverage, delve, tapestry, underscore, pivotal, crucial, vibrant, testament, landscape (abstract), interplay, intricate, fostering, enduring, garner, valuable, enhance, showcase, align with, additionally.
+- Copula avoidance: "serves as," "stands as," "marks a," "represents a," "boasts," "features." Use is/are/has.
+- Emoji decoration on bullets or headings.
+- Title Case In Headings. Use sentence case.
+- Curly quotes ("..."). Use straight quotes (") only.
+- Bold for random emphasis. Bold only for genuine key terms.
+- Rule-of-three padding where the third item is filler.
+- Generic upbeat conclusions ("The future looks bright," "exciting times ahead").
+- Aphorism formulas ("X is the language of Y," "X becomes a trap," "X is not a tool but a mirror").
+- Theatrical openers: "Honestly?" "Look," "Here's the thing," used as standalone pause-and-reveal.
+- Inline-header bullet lists (`- **Speed:** ...`). Write as prose.
+- "-ing" tag-ons that add fake depth: "highlighting," "underscoring," "fostering," "reflecting," "showcasing," "ensuring," "contributing to."
 
-If the humanizer skill is available and the user wants a deeper pass, invoke it explicitly on the draft.
+**Required patterns:**
+- Specific, hard-to-fabricate detail. Real numbers, real names, real quotes from the user's input.
+- Vary sentence length. Short. Then longer ones that take their time. Mix.
+- Active voice over passive. Concrete actor over hidden subject.
+- Simple copulas (is/are/has) over fancy substitutes.
+- One opinion or mixed feeling where the format allows (not for neutral reference text).
+- Cut every filler phrase ("in order to" → "to," "due to the fact that" → "because," "at this point in time" → "now," "has the ability to" → "can").
+
+**Final scan before output:**
+1. Scan for `—` and `–`. Any hit means redraft.
+2. Scan for any word in the AI-vocabulary list above. Any hit means rewrite that sentence.
+3. Scan for "it's not X, it's Y" pattern. Any hit means rewrite.
+4. If three short fragments appear in a row mid-paragraph, the rhythm is engineered. Vary.
+
+Full 33-pattern reference: see humanizer/SKILL.md in this plugin.
 
 ## Output
 
