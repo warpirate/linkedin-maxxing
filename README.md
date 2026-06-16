@@ -1,5 +1,27 @@
 # linkedin-maxxing
 
+**17 Claude Code skills + slash commands for substance-first LinkedIn growth.** Profile audit, content drafting (posts, carousels, longform, video, DMs, comments), performance analysis, and a Wikipedia-based humanizer. Anti-template, anti-slop, open source, MIT.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Plugin: linkedin-maxxing](https://img.shields.io/badge/Claude%20Code-Plugin-purple.svg)](https://docs.claude.com/en/docs/claude-code/plugins)
+[![Skills: 17](https://img.shields.io/badge/Skills-17-blue.svg)](#the-17-skills)
+[![Slash commands: 17](https://img.shields.io/badge/Slash%20commands-17-green.svg)](#slash-commands)
+
+## Quick install
+
+```
+/plugin marketplace add warpirate/linkedin-maxxing
+/plugin install linkedin-maxxing@linkedin-maxxing-marketplace
+```
+
+Restart the Claude Code session. Then type `/linkedin-maxxing:` and the autocomplete menu shows all 17 commands.
+
+## Keywords
+
+LinkedIn growth, LinkedIn content creation, LinkedIn AI tools, anti-AI-slop, humanizer, LinkedIn profile optimization, LinkedIn carousels, LinkedIn newsletter, LinkedIn DM writer, content repurposing, creator economy, personal branding, Claude Code plugin, Claude skills, Anthropic.
+
+---
+
 17 skills for growing on LinkedIn without producing slop.
 
 > **How it works:** These skills run inside Claude Code on **content you paste in** (drafts, profile text, past posts, analytics CSV). There is no live LinkedIn API, no scraping, no posting on your behalf. You stay in the loop: the skills draft and critique, you publish.
